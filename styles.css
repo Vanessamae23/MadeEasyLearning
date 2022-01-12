@@ -107,7 +107,7 @@ footer {
 @media only screen and (max-width: 500px) {
     
     body {
-        font-size: 0.7rem;
+        font-size: 1.0rem;
     }
 
     .navbar li {
