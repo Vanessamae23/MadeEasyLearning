@@ -1,1 +1,1 @@
-# MadeEasyLearning
+# MadeEasy
