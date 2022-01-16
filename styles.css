@@ -1,0 +1,159 @@
+html {
+    width: 100%;
+}
+
+/* navbar styles */
+
+.navbar li {
+    list-style-type: none;
+    float: right;
+    height: 100%;
+}
+
+nav { 
+    display: flex;
+    background-color: #333;
+    align-items: center;
+
+}
+
+
+.navbar {
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+#logo {
+    margin: 0px 0px 0px 20px;
+    white-space: nowrap;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bodyhead {
+    padding: 5%;
+    line-height: 2.0rem;
+
+}
+
+.bodyparts {
+    display: flex;
+}
+
+.bodybutton {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 50%
+}
+
+.bodybutton button {
+    width: 30%;
+    background-color: yellow;
+    border-radius: 10%;
+    border: none;
+    color: black;
+}
+
+.bodybutton button:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: black; 
+    color: black;
+}
+
+
+/* images */
+.body-study {
+    width: 100%;
+    height: auto;
+}
+
+.bodyleft {
+    width: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* For mobile phones */
+@media only screen and (max-width: 500px) {
+    
+    body {
+        font-size: 1.2rem;
+    }
+
+    .navbar li {
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .bodybutton button {
+        display: block;
+        width: 100%;
+        height: 3.0em;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+
+    .bodybutton {
+        display: block;
+        align-content: center;
+    }
+
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .bodyleft {
+        width: 100%;
+    }
+
+    .bodybutton {
+        width: 100%
+    }
+
+    .bodyparts {
+        display: block;
+    }
+}
+
+/* footer icon */
+.footer-icon {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-icon:hover {
+    color: yellow;
+}
