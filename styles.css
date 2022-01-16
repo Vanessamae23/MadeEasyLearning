@@ -121,9 +121,10 @@ footer {
     .bodybutton button {
         display: block;
         width: 100%;
-        height: 3.0em;
+        height: 4.0em;
         margin-bottom: 20px;
         align-self: center;
+        font-size: 1.5rem;
     }
 
     .bodybutton {
@@ -140,7 +141,7 @@ footer {
     }
 
     .bodybutton {
-        width: 100%
+        width: 100%;
     }
 
     .bodyparts {
